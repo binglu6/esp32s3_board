@@ -260,7 +260,7 @@ static void main_camera_cb(lv_event_t *e)
     bsp_ai_show_camera();
 }
 
-// 主页面功能按钮：统一 150x64 的预渲染 RGB565 位图（内置字库缺中文，按钮文字
+// 主页面功能按钮：统一 100x64 的预渲染 RGB565 位图（内置字库缺中文，按钮文字
 // 用 .claude/scripts/gen_main_btns.py 提前绘制成位图）。
 static void add_main_button(lv_obj_t *parent, const lv_image_dsc_t *img, int x, int y,
                             lv_event_cb_t cb)
